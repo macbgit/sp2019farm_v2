@@ -1,0 +1,19 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'Assinatura do Visual Studio Enterprise – MPN(bed82fbc-918c-4d3c-915a-a571bec7ee87)'
+    subscriptionId: 'bed82fbc-918c-4d3c-915a-a571bec7ee87'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'SharepointTjspRg'
+    location: 'East US'
+    templateLocation: 'Linked artifact'
+    csmFile: '$(Agent.BuildDirectory)\$(artifactName)\tjspsc\azuredeploy.json'
+    csmParametersFile: '$(Agent.BuildDirectory)\$(artifactName)\tjspsc\azuredeploy.parameters.json'
+    deploymentMode: 'Complete'
