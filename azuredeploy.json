@@ -296,7 +296,7 @@
     },
     "vmSQLSize": {
       "type": "string",
-      "defaultValue": "Standard_DC1s_v2",
+      "defaultValue": "Standard_DC2s_v2",
       "metadata": {
         "description": "Size of the SQL VM"
       }
