@@ -14,6 +14,6 @@ steps:
     resourceGroupName: 'tjspRG'
     location: 'Brazil South'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://github.com/macbgit/sp2019farm_v1/blob/2eba6371b7e363b0905b0f2e07ea6aba5c8fb21c/azuredeploy.json'
-    csmParametersFileLink: 'https://github.com/macbgit/sp2019farm_v1/blob/2eba6371b7e363b0905b0f2e07ea6aba5c8fb21c/azuredeploy.parameters.json'
+    csmFileLink: 'https://raw.githubusercontent.com/macbgit/sp2019farm_v1/main/azuredeploy.json?token=AVE3YF2DGFGDIZTKPKOZEH3BUZ7ZC'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/macbgit/sp2019farm_v1/main/azuredeploy.parameters.json?token=AVE3YF7ZXXMLRTACA6XOWE3BUZ74C'
     deploymentMode: 'Incremental'
