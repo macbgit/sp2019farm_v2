@@ -11,7 +11,7 @@ steps:
     azureResourceManagerConnection: 'armsc'
     subscriptionId: 'bed82fbc-918c-4d3c-915a-a571bec7ee87'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'SharepointTjspRg'
+    resourceGroupName: 'tjspRG'
     location: 'East US'
     templateLocation: 'Linked artifact'
     csmFile: '$(Agent.BuildDirectory)\$(artifactName)\tjspsc\azuredeploy.json'
