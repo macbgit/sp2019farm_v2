@@ -274,7 +274,7 @@
     },
     "vmDCSize": {
       "type": "string",
-      "defaultValue": "Standard_B2s",
+      "defaultValue": "Standard_B1s",
       "metadata": {
         "description": "Size of the DC VM"
       }
@@ -296,7 +296,7 @@
     },
     "vmSQLSize": {
       "type": "string",
-      "defaultValue": "Standard_B2ms",
+      "defaultValue": "Standard_B1s",
       "metadata": {
         "description": "Size of the SQL VM"
       }
@@ -318,14 +318,14 @@
     },
     "vmSPSize": {
       "type": "string",
-      "defaultValue": "Standard_B4ms",
+      "defaultValue": "Standard_B1s",
       "metadata": {
         "description": "Size of the SharePoint VM"
       }
     },
     "vmSPStorageAccountType": {
       "type": "string",
-      "defaultValue": "StandardSSD_LRS",
+      "defaultValue": "Standard_LRS",
       "allowedValues": [
         "Standard_LRS",
         "StandardSSD_LRS",
