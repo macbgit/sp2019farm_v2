@@ -274,7 +274,7 @@
     },
     "vmDCSize": {
       "type": "string",
-      "defaultValue": "Standard_B1s",
+      "defaultValue": "Standard_DC1s_v2",
       "metadata": {
         "description": "Size of the DC VM"
       }
@@ -296,7 +296,7 @@
     },
     "vmSQLSize": {
       "type": "string",
-      "defaultValue": "Standard_B1s",
+      "defaultValue": "Standard_DC1s_v2",
       "metadata": {
         "description": "Size of the SQL VM"
       }
@@ -318,7 +318,7 @@
     },
     "vmSPSize": {
       "type": "string",
-      "defaultValue": "Standard_B1s",
+      "defaultValue": "Standard_DC1s_v2",
       "metadata": {
         "description": "Size of the SharePoint VM"
       }
