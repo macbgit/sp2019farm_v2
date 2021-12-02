@@ -34,7 +34,7 @@
     },
     "domainFQDN": {
       "type": "string",
-      "defaultValue": "contoso.local",
+      "defaultValue": "tjspp12",
       "minLength": 5,
       "metadata": {
         "description": "FQDN of the AD forest to create."
@@ -375,7 +375,7 @@
       "spAppPoolUserName": "spapppool",
       "spAppPoolPassword": "[parameters('serviceAccountsPassword')]",
       "spPassphrase": "[parameters('serviceAccountsPassword')]",
-      "localAdminUserName": "[concat('local-', uniqueString(subscription().subscriptionId))]",
+      "localAdminUserName": "TjspVMAdmin",
       "enableAnalysis": false
     },
     "networkSettings": {
