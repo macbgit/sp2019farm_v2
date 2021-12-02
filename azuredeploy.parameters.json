@@ -3,16 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "dnsLabelPrefix": {
-      "value": "GEN-UNIQUE-10"
+      "value": "tjspdns"
     },
     "adminUserName": {
-      "value": "GEN-UNIQUE"
+      "value": "TjspAdmin"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "TjspPass@123"
     },
     "serviceAccountsPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "TjspPass@123"
     }
   }
 }
