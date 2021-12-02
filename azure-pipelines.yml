@@ -11,7 +11,7 @@ steps:
     azureResourceManagerConnection: 'armsc'
     subscriptionId: 'bed82fbc-918c-4d3c-915a-a571bec7ee87'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'tjspRG'
+    resourceGroupName: 'tjsprg'
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/macbgit/sp2019farm_v1/main/azuredeploy.json?token=AVE3YF2DGFGDIZTKPKOZEH3BUZ7ZC'
