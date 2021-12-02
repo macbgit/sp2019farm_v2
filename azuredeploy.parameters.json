@@ -9,10 +9,10 @@
       "value": "TjspAdmin"
     },
     "adminPassword": {
-      "value": "TjspPass@123"
+      "value": "SharepointTjsp@2021"
     },
     "serviceAccountsPassword": {
-      "value": "TjspPass@123"
+      "value": "SharepointTjsp@2021"
     }
   }
 }
