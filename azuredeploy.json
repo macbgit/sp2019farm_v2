@@ -34,7 +34,7 @@
     },
     "domainFQDN": {
       "type": "string",
-      "defaultValue": "contoso.local",
+      "defaultValue": "tjsp.local",
       "minLength": 5,
       "metadata": {
         "description": "FQDN of the AD forest to create."
