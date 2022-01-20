@@ -8,6 +8,7 @@
         [Parameter(Mandatory)] [String]$PrivateIP
     )
 
+    Write-Host Green "Importando módulos"
     Import-DscResource -ModuleName ActiveDirectoryDsc, NetworkingDsc, xPSDesiredStateConfiguration, ActiveDirectoryCSDsc, CertificateDsc, xDnsServer, ComputerManagementDsc, AdfsDsc
     [String] $DomainNetbiosName = (Get-NetBIOSName -DomainFQDN $DomainFQDN)
     [System.Management.Automation.PSCredential] $DomainCredsNetbios = New-Object System.Management.Automation.PSCredential ("${DomainNetbiosName}\$($Admincreds.UserName)", $Admincreds.Password)
@@ -30,6 +31,7 @@
             RebootNodeIfNeeded = $true
         }
 
+        Write-Host Green "Criando AD Domain"
         #**********************************************************
         # Create AD domain
         #**********************************************************
