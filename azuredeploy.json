@@ -15,11 +15,12 @@
     },
     "sharePointVersion": {
       "type": "string",
-      "defaultValue": "2019",
+      "defaultValue": "SE",
       "allowedValues": [
         "2013",
         "2016",
-        "2019"
+        "2019",
+        "SE"
       ],
       "metadata": {
         "description": "Version of SharePoint farm to create."
