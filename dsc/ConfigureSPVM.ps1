@@ -1,7 +1,9 @@
 configuration ConfigureSPVM
 {
+
     param
     (
+    
         [Parameter(Mandatory)] [String]$DNSServer,
         [Parameter(Mandatory)] [String]$DomainFQDN,
         [Parameter(Mandatory)] [String]$DCName,
