@@ -731,7 +731,7 @@ configuration ConfigureSPVM
         # Installing LDAPCP somehow updates SPClaimEncodingManager 
         # But in SharePoint 2019 (only), it causes an UpdatedConcurrencyException on SPClaimEncodingManager in SPTrustedIdentityTokenIssuer resource
         # The only solution I've found is to force a reboot in SharePoint 2019
-        if ($SharePointVersion -eq "2019") {
+        if ([String]::Equals($SharePointVersion, "2019") -or [String]::Equals($SharePointVersion, "SE")) {
             xScript ForceRebootBeforeCreatingSPTrust
             {
                 # If the TestScript returns $false, DSC executes the SetScript to bring the node back to the desired state
